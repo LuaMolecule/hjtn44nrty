@@ -1,0 +1,3 @@
+for i,v in pairs(game.Players:GetChildren()) do
+	game.ReplicatedStorage.Notices.SendUserNoticeRemote:FireClient(v, "This Is A Test Message From The Game Owner, Hope You Enjoy Playing! :)"
+end
